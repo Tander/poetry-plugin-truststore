@@ -2,7 +2,7 @@ name: Python package
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "v*.*.*-test"
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
